@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "A tiny proxy for npm, to hasten your npm installs",
   "main": "proxy.js",
-  "dependencies": {},
+  "dependencies": {
+    "express": "4.14.0",
+    "morgan": "1.7.0",
+    "request": "2.72.0"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
